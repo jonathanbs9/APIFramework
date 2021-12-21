@@ -1,0 +1,285 @@
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "House Test",
+    "phone_number": "+549 223 456 7899",
+    "address": "123 Fake St",
+    "website": "https://intranet-frontend-permisos.vercel.app/",
+    "language": "Spanish",
+    "location": {
+        "lat": -37.9669684,
+        "lng": -57.5534532
+    },
+    "types": [
+        "IT ",
+        "Programming"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Tue, 21 Dec 2021 20:05:50 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "748bc074227bb268c07bd87fe2409e1c",
+    "scope": "APP",
+    "reference": "9e30300fb91b5d8b49fe85e943d9bb849e30300fb91b5d8b49fe85e943d9bb84",
+    "id": "9e30300fb91b5d8b49fe85e943d9bb84"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=748bc074227bb268c07bd87fe2409e1c
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=748bc074227bb268c07bd87fe2409e1c
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 21 Dec 2021 20:05:53 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 269
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-37.9669684",
+        "longitude": "-57.5534532"
+    },
+    "accuracy": "50",
+    "name": "House Test",
+    "phone_number": "+549 223 456 7899",
+    "address": "123 Fake St",
+    "types": "IT ,Programming",
+    "website": "https://intranet-frontend-permisos.vercel.app/",
+    "language": "Spanish"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "Avalith Office Mdq",
+    "phone_number": "+549 223 456 7899",
+    "address": "4756",
+    "website": "https://intranet-frontend-permisos.vercel.app/",
+    "language": "English",
+    "location": {
+        "lat": -37.9669684,
+        "lng": -57.5534532
+    },
+    "types": [
+        "IT ",
+        "Programming"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Tue, 21 Dec 2021 20:05:57 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "86eb350d7e0f5dcc6c61b89e09d40175",
+    "scope": "APP",
+    "reference": "e20b2322d294a2e55c0385e1f67a8ca2e20b2322d294a2e55c0385e1f67a8ca2",
+    "id": "e20b2322d294a2e55c0385e1f67a8ca2"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=86eb350d7e0f5dcc6c61b89e09d40175
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=86eb350d7e0f5dcc6c61b89e09d40175
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 21 Dec 2021 20:05:59 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 270
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-37.9669684",
+        "longitude": "-57.5534532"
+    },
+    "accuracy": "50",
+    "name": "Avalith Office Mdq",
+    "phone_number": "+549 223 456 7899",
+    "address": "4756",
+    "types": "IT ,Programming",
+    "website": "https://intranet-frontend-permisos.vercel.app/",
+    "language": "English"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "accuracy": 50,
+    "name": "GlobalLogic Cowork Mdq",
+    "phone_number": "+549 223 456 7899",
+    "address": "5600 Consticion Ave",
+    "website": "https://intranet-frontend-permisos.vercel.app/",
+    "language": "Spanish",
+    "location": {
+        "lat": -37.9669684,
+        "lng": -57.5534532
+    },
+    "types": [
+        "IT ",
+        "Programming"
+    ]
+}
+HTTP/1.1 200 OK
+Date: Tue, 21 Dec 2021 20:06:03 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 194
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK",
+    "place_id": "c1a851b25cc2dd7f6b13059d4591a26e",
+    "scope": "APP",
+    "reference": "89837d26d361b3c06928d0a7cf253ac689837d26d361b3c06928d0a7cf253ac6",
+    "id": "89837d26d361b3c06928d0a7cf253ac6"
+}
+Request method:	GET
+Request URI:	https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=c1a851b25cc2dd7f6b13059d4591a26e
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+				place_id=c1a851b25cc2dd7f6b13059d4591a26e
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 21 Dec 2021 20:06:05 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 289
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "location": {
+        "latitude": "-37.9669684",
+        "longitude": "-57.5534532"
+    },
+    "accuracy": "50",
+    "name": "GlobalLogic Cowork Mdq",
+    "phone_number": "+549 223 456 7899",
+    "address": "5600 Consticion Ave",
+    "types": "IT ,Programming",
+    "website": "https://intranet-frontend-permisos.vercel.app/",
+    "language": "Spanish"
+}
+Request method:	POST
+Request URI:	https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+Proxy:			<none>
+Request params:	<none>
+Query params:	key=qaclick123
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "place_id": "c1a851b25cc2dd7f6b13059d4591a26e"
+}
+HTTP/1.1 200 OK
+Date: Tue, 21 Dec 2021 20:06:09 GMT
+Server: Apache/2.4.18 (Ubuntu)
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Methods: POST
+Access-Control-Max-Age: 3600
+Access-Control-Allow-Headers: Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With
+Content-Length: 15
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json;charset=UTF-8
+
+{
+    "status": "OK"
+}
